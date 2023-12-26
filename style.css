@@ -1,0 +1,2551 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+
+}
+
+
+body{
+    width: 100%;
+    height: 100%;
+    background-color:black
+} 
+.head-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(rgb(19, 130, 137), rgb(20, 220, 214), rgb(70, 184, 157));
+    width: 53%;
+    height: 8rem;
+    margin: auto;
+    border-radius: 0rem 0rem 2rem 2rem;
+    box-shadow: 0px 0px 2px 0px white;
+}
+.head-box b{
+    text-align: center;
+    font-size: 2rem;
+    padding: 4rem;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: 1200;
+}
+.info{
+ text-align: center;
+ padding: 2rem;
+}
+.info span{
+    font-size: 2rem;
+    font-weight: 800;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.info p{
+    color: rgb(81, 168, 139);
+    font-size: 1.8rem;
+    font-weight: 1000;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.info h2{
+    font-size: 2rem;
+    padding-top: 3rem;
+    font-weight: 800;
+    color: white;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+.info h3{
+    color: rgb(81, 168, 139);
+    font-size: 2rem;
+    font-weight: 700;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+.boxes{
+    padding: 3rem;
+}
+.f-2-box{
+    display: flex;
+    justify-content: right;
+    gap: 2rem;
+    /* padding-right: 20rem; */
+    margin: 0.5rem;
+    
+
+}
+
+.f-2-box .box1 {
+    padding: 1rem;
+    background-color: white;
+    height: 4.5rem;
+    width: 18rem;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 3rem;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(47, 53, 82);
+    border-radius: 1rem;
+    text-align: center;
+}
+
+.s-2-box{
+    display: flex;
+    justify-content:right;
+    gap: 2rem;
+    /* padding-right: 20rem; */
+    margin: 0.5rem;
+
+}
+.s-2-box .box1{
+    padding: 1rem;
+    background-color: white;
+    height: 4.5rem;
+    width: 18rem;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    gap: 3rem;
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: white;
+    background-color: rgb(47, 53, 82);
+    border-radius: 1rem;
+    text-align: center;
+
+   
+}
+.triangle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.triangle .tri-img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+} 
+.tri-img img{
+    height: 35rem;
+}
+.prob b{
+    font-size: 2.5rem;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-bottom: 2rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.prob ul{
+    padding-top: 1rem;
+    list-style: none;
+}
+.prob li{
+    font-size: 1.8rem;
+    /* text-align: center; */
+    padding: 1rem;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.join-now{
+    text-align: center;
+    padding: 4rem;
+}
+
+.seat {
+    font-size: 2rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.register{
+    padding: 1rem;
+}
+.register span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+}
+.register h3{
+    color: rgb(79, 214, 198);
+}
+.dig-btn{
+    
+     display: flex; 
+    justify-content: center;
+    align-items: center;
+   
+}
+.btn1{
+    height: 7rem;
+    width: 60vw;
+    background-image: linear-gradient(rgb(19, 130, 137), rgb(20, 220, 214), rgb(70, 184, 157));
+    border-radius: 0.8rem;
+    
+}
+.btn1 b{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 800;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color:white;
+    cursor: pointer;
+}
+.btn1 span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    cursor: pointer;
+}
+.btn1 h5{
+    text-decoration: line-through;
+    font-weight: 400;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.five-boxes span {
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.enterpreneur-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+   
+}
+.eo-box{
+    height: 7rem;
+    width: 33rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+ 
+    
+   
+    
+}
+.eo-box span {
+    color: black;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.owner-box{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.market-box{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    
+}
+.mk-box{
+    height: 8rem;
+    width: 33rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    gap: 3rem;
+}
+
+.mk-box span{
+    color: black;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.six-boxes{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2rem;
+}
+.cn{
+    margin-right: -5rem;
+}
+.ag{
+    margin-left: 2rem;
+}
+
+.after-session{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+   
+}
+
+.able-box{
+    height: 15vh;
+    width: 35vw;
+    background-color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 2rem;
+    border-radius: 1rem;
+    padding: 2rem;
+  
+    
+}
+
+.able-box span{
+    color: black;
+     font-size: 1.1rem; 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.unlock p{
+    font-size: 2rem;
+    font-weight:bold;
+    text-align: center;
+    padding: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.unlock span{
+    color: rgb(79, 214, 198);
+}
+.three-boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 4rem;
+    
+
+}
+.unlock-box{
+    height: 17rem;
+    width: 35rem;
+    background-color: white;
+
+    border-radius: 1rem;
+   
+    
+}
+
+.rs-box{
+    height: 4rem;
+    width: 18rem;
+    background-color:  rgb(38, 173, 131);
+    border-radius: 0rem 1rem 1rem 0rem;
+     justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 2rem 0rem;
+    box-shadow :0px 7px 7px 7px rgba(0, 0, 0, 0.286);
+    margin-left: -0.6rem;
+   
+    
+}
+.rs-box b{
+    color: white;
+    font-size: larger;
+    font-family: sans-serif;
+}
+.unlock-box p{
+    color: black;
+    font-weight: bold;
+    font-size: x-large;
+    padding: 1rem;
+    font-family: sans-serif;
+
+   
+}
+.unlock-box span{
+    font-weight: 100;
+    color: black;
+    font-size: larger;
+} 
+
+
+
+.unlock-box2{
+    height: 17rem;
+    width: 35rem;
+    background-color:rgb(38, 173, 131); 
+
+    border-radius: 1rem;
+   
+    
+}
+
+.rs-box2{
+    height: 4rem;
+    width: 18rem;
+    background-color:  white;
+    border-radius: 0rem 1rem 1rem 0rem;
+     justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 2rem 0rem;
+    box-shadow :0px 7px 7px 7px rgba(0, 0, 0, 0.286);
+    margin-left: -0.6rem;
+   
+    
+}
+.rs-box2 b{
+    color:black;
+    font-size: larger;
+    font-family: sans-serif;
+}
+.unlock-box2 p{
+    color: white;
+    font-weight: bold;
+    font-size: 1.7rem;
+    padding: 1rem;
+    font-family: sans-serif;
+
+   
+}
+.unlock-box2 span{
+    font-weight: 100;
+    color: white;
+    font-size: larger;
+}
+.trainer{
+    text-align: center;
+    padding-top: 6rem;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+}
+.mentor-name{
+    padding: 4rem;
+}
+.mentor-name h1{
+    margin-left: 5rem !important;
+    padding: 1rem;
+    font-size: 1.5rem;
+    font-family: sans-serif;
+   
+}
+.mentor-discript {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 2;
+    font-size: 1.3rem;
+    gap: 3rem;
+    font-family: sans-serif;
+}
+.mentor-discript span{
+    color: rgb(60, 173, 141);
+}
+.mentor-img img{
+    height: 30rem;
+    width: 30rem;
+    background-color: black; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 4px 4px rgb(154, 147, 147);
+    border-radius: 1rem;
+}
+.join{
+    text-align: center;
+}
+.join span{
+    text-align: center;
+    font-size: 2.7rem;
+    font-family: sans-serif;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+}
+.join p{
+ 
+    font-size: 1.9rem;
+    font-family: sans-serif;
+    font-weight: 200;
+    padding: 1rem;
+    
+}
+.join h5{
+    color: rgb(10, 185, 168);
+    font-size: 2rem;
+    font-family: sans-serif;
+    font-weight: 200;
+} 
+.watch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 1rem;
+    
+}
+#tm-btn1{
+    height: 5rem;
+    width: 5rem;
+    background-color: black;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 8px 3px rgb(49, 180, 198);
+    border-color: aliceblue;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+   
+
+}
+
+#tm-btn2{
+    height: 5rem;
+    width: 5rem;
+    background-color: black;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 8px 3px rgb(49, 180, 198);
+    border-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+
+
+}
+
+#tm-btn3{
+    height: 5rem;
+    width: 5rem;
+    background-color: black;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 8px 3px rgb(49, 180, 198);
+    border-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+
+
+}
+
+#tm-btn4{
+    height: 5rem;
+    width: 5rem;
+    background-color: black;
+    border-radius: 1rem;
+    box-shadow: 0px 0px 8px 3px rgb(49, 180, 198);
+    border-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+
+}
+.btn-name{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 1.5rem;
+    font-size: 1.1rem;
+    margin-left: 3rem;
+}
+
+.worth{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 2rem;
+    margin: 3rem;
+}
+.worth span{
+    color: rgb(10, 185, 168);
+}
+.learning{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    margin: auto;
+}
+.premium{
+   
+    font-family: sans-serif;
+    font-size: 3rem;
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+    padding: 2rem;
+    font-weight: 200;
+}
+.learn-img img{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    background-color: black;
+    height: 14rem;
+    padding: 1rem;
+    width: 22rem;
+    margin: auto;
+    box-shadow: none;
+
+}
+.why-list {
+    font-size:1.2rem;
+    font-family: sans-serif;
+    font-weight: 300;
+    flex-direction: column;
+    /* padding: 3rem; */
+}
+.why-list span{
+    color: rgb(10, 185, 168);
+
+}
+.why-list i{
+    padding: 2rem;
+   
+}
+.ans-ques{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+    margin: auto;
+}
+.accordion{
+    padding: 5rem;
+    
+}
+.accordion .faq-box{
+    position: relative;
+    margin: 10px 20px;
+    width: 75vw;
+    border-radius: 1rem;
+    background:rgb(41, 164, 152);
+}
+.accordion .faq-box:hover{
+    background-color: rgb(36, 36, 170);
+}
+.accordion .faq-box .ques{
+    margin-top: 1rem;
+    position: relative;
+    padding: 1rem;
+    display: flex;
+    align-items: center;
+    color: white;
+    cursor: pointer;
+    font-size: 1.6rem;
+    font-family: sans-serif;
+    height: 5rem;
+    border-radius: 1rem;
+}
+.accordion .faq-box .ques::before{
+    color: rgb(26, 207, 26);
+    content: '+';
+    position:absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+    background-color:black;
+    width: 3rem;
+    border-radius: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    border: 5px solid white;
+}
+ .accordion .faq-box.active .ques::before{
+    color: rgb(26, 207, 26);
+    content: '-';
+    position:absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+    background-color: black;
+    width: 3rem;
+    border-radius: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 3rem;
+    border: 5px solid white;
+}
+.accordion .faq-box .content{
+    position: relative;
+    background:black;
+    height: 0rem;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y:visible;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+.accordion .faq-box.active .content{
+    padding: 2rem;
+    height: 7rem;
+    display: flex;
+    font-size: 1.5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer {
+    width: 99.9%;
+   background-color:white;
+   height: auto;
+   cursor: pointer;
+   border-radius: 1rem;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   display: flex;   
+}
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 2rem;
+    text-align: right;
+    gap: 2rem;
+
+    
+}
+.start span{
+    color: rgb(34, 201, 193);
+    font-family: sans-serif;
+    font-size: 4rem;
+    font-weight: 100;
+    text-align: right;
+    
+}
+.start b{
+    color: rgb(34, 201, 193);
+    font-size: 4rem;
+    font:500;
+    font-family: sans-serif;
+    text-align: right;
+   
+}
+.start h1{
+    font-size: 4rem;
+    font-weight: 200;
+    color:rgb(34, 201, 193);
+   
+}
+.start img{
+    height: 6rem;
+    width: 8rem;
+}
+.rg-btn{
+    background-color: rgb(10, 185, 168);
+    height: 6rem;
+    width: 40rem;
+    border-radius: 2rem;
+    font-size: 2rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    box-shadow: 0px 10px 5px 10px rgb(10, 185, 168) ;
+
+}
+.start h4{
+    font-size: 8rem;
+    color:rgb(34, 201, 193);
+    font-weight: 50;
+    gap: 0rem;
+}
+ 
+.footer
+{
+    display: none;
+}
+
+
+
+
+
+/*RESPONSIVE WEBSITE FOR 769PX TO 1023PX*/
+@media screen and (min-width:769px) and (max-width:1200px) {
+
+    .head-box{
+        border-radius:  0rem 0rem 1rem 1rem;
+        margin: auto;
+    }
+    .head-box b{
+        font-size: 1.5rem;
+        padding: 2rem;
+    }
+    .info span{
+           font-size: 2rem;
+       }
+       .info p{
+           font-size: 2rem;
+       }
+       .info h2{
+           font-size: 2rem;
+       }
+       .info h3{
+           font-size: 2rem;
+       }
+       .boxes{
+        padding: 3rem;
+    }
+    .f-2-box{
+        justify-content: center;
+        padding-right: 0rem;
+    }
+    .f-2-box .box1{
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        font-size: 1.8rem;
+    }
+    .s-2-box{
+        justify-content: center;
+        padding-right: 0rem;
+    }
+    .s-2-box .box1{
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        font-size: 1.8rem;
+    }
+    .triangle{
+        flex-direction: column-reverse;
+    }
+    .tri-img img{
+        height: 30rem;
+    }
+    .prob b{
+        font-size: 2rem;
+    }
+    .prob li{
+        font-size: 1rem;
+    }
+    .join-now{
+        text-align: center;
+        padding: 1rem;
+    }
+    .seat{
+        font-size: 2rem;
+    }
+    .register span{
+        font-size: 1rem;
+    }
+   .btn1{
+       height: auto;
+       width: auto;
+    }
+   .btn1 b{
+       font-size: 2rem;
+   }
+   .btn1 span{
+       font-size: 1rem;
+       padding-bottom: 1rem;
+   }
+   .btn1 h5{
+       text-decoration: line-through;
+       font-weight: 400;
+       margin-left: 0.5rem;
+       margin-right: 0.5rem;
+   }
+   .five-boxes span{
+    padding: 2rem;
+    font-size: 2rem;
+}
+.enterpreneur-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+.enterpreneur-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+   
+}
+.eo-box{
+    height: 6rem;
+    width: 40vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding: 1rem;
+ 
+    
+   
+    
+}
+.eo-box span{
+    color: black;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.owner-box{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+}
+.market-box{
+    /* text-align: center; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 2rem;
+    
+}
+.mk-box{
+    height: 6rem;
+    width: 40vw;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    gap: 3rem;
+    padding: 1rem;
+}
+
+.mk-box span{
+    color: black;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.six-boxes{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2rem;
+}
+
+.after-session{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+   
+}
+
+.able-box{
+    height: 17vh;
+    width: 37vw;
+    background-color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+  
+    
+}
+.able-box span{
+    color: black;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.unlock p{
+    font-size: 2rem;
+    padding: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.three-boxes{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    flex-direction: column;
+    
+
+}
+.trainer{
+    text-align: center;
+    padding-top: 3rem;
+    font-size: 2rem;
+    font-family: sans-serif;
+}
+.mentor-name{
+    padding: 2rem;
+}
+.mentor-name h1{
+    
+    margin-left: 0rem !important;
+    padding: 1rem;
+    font-family: sans-serif;
+   
+}
+.mentor-discript {
+    /* line-height: 2rem; */
+    font-size: 13px;
+    gap: 2rem;
+    font-family: sans-serif;
+}
+.mentor-discript span{
+    color: rgb(60, 173, 141);
+}
+.mentor-img img{
+    height: 20rem;
+    width: 20rem;
+}
+.premium{
+   
+    font-family: sans-serif;
+    font-size: 2rem;
+     display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column; 
+    padding: 1rem;
+    font-weight: 200;
+}
+.learn-img img{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    flex-direction: column;
+    background-color: black;
+    height: 8rem;
+    padding: 1rem;
+    width: 18rem;
+    margin: auto;
+    box-shadow: none;
+
+}
+.why-list {
+    font-size:larger;
+    font-family: sans-serif;
+    font-weight: 300;
+    flex-direction: column;
+    padding: 2rem;
+   
+    
+}
+.why-list i{
+    padding: 1rem;
+   
+}
+
+.accordion .faq-box .ques{
+    padding: 1rem;
+    font-size: 1rem;
+}
+.accordion .faq-box .ques::before{
+    width: 3rem;
+    height: 3rem;
+
+}
+ .accordion .faq-box.active .ques::before{
+    width: 3rem;
+    height: 3rem;
+}
+.accordion .faq-box .content{
+    font-size: 2rem;
+}
+.accordion .faq-box.active .content{
+    height: 10rem;
+    padding:2rem;
+    font-size: 1rem;
+}
+.start{
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    padding: 1rem;
+    text-align: right;
+    gap: 1rem;
+    width: 100%;
+
+    
+}
+.start span{
+    color: rgb(34, 201, 193);
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    text-align: right;
+    
+}
+.start b{
+    color: rgb(34, 201, 193);
+    font-size: 1rem;
+    font:500;
+    font-family: sans-serif;
+    text-align: right;
+   
+}
+.start h1{
+    font-size: 1rem;
+    font-weight: 200;
+    color:rgb(34, 201, 193);
+   
+}
+.start img{
+    height: 4rem;
+    width: 5rem;
+}
+.rg-btn{
+    background-color: rgb(10, 185, 168);
+    height: 3rem;
+    width: 40rem;
+    border-radius: 2rem;
+    font-size:large;
+    text-align: center;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    box-shadow: 0px 10px 5px 10px rgb(10, 185, 168) ;
+
+}
+.start h4{
+    font-size: 3rem;
+    color:rgb(34, 201, 193);
+    font-weight: 50;
+    gap: 0rem;
+}
+ 
+}
+
+
+/*RESPONSIVE WEBSITE FOR 498PX TO 769PX*/
+@media  screen and (min-width:498px) and (max-width:769px){
+
+
+    .head-box{
+        width:28rem;
+        height: 7rem;
+        border-radius:  0rem 0rem 1rem 1rem;
+        margin:  auto
+        
+        
+    }
+    .head-box b{
+        font-size: 1.5rem;
+        padding: 1rem;
+    }
+    .info span{
+           font-size: 1.2rem;
+       }
+       .info p{
+           font-size: 1.5rem;
+       }
+       .info h2{
+           font-size: 1.5rem;
+       }
+       .info h3{
+           font-size: 1.5rem;
+       }
+       .boxes{
+        padding: 1.5rem;
+    }
+    .boxes{
+        padding: 1rem;
+    }
+    .f-2-box{
+        justify-content: center;
+        padding-right: 0rem;
+    }
+    .f-2-box .box1{
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        height: 3rem;
+        font-size: 1rem;
+        text-align: center;
+    
+    }
+    .s-2-box{
+        justify-content: center;
+        padding-right: 0rem;
+    }
+    .s-2-box .box1{
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        height: 3rem;
+        font-size: 1rem;
+        text-align: center;
+    }
+    .triangle{
+        flex-direction: column-reverse;
+    }
+    .tri-img img{
+        height: 20rem;
+        padding: 0rem;
+    }
+    .prob b{
+        font-size: 1.5rem;
+    }
+    .prob li{
+        font-size: 1rem;
+    }
+    .join-now{
+        text-align: center;
+        padding: 1rem;
+    }
+    .seat{
+        font-size: 1rem;
+    }
+    .register span{
+        font-size: 0.6rem;
+    }
+   .btn1{
+       height: auto;
+       width: auto;
+    }
+   .btn1 b{
+       font-size: 1rem;
+   }
+   .btn1 span{
+       font-size: 1rem;
+       padding-bottom: 1rem;
+   }
+   .btn1 h5{
+       text-decoration: line-through;
+       font-weight: 400;
+       margin-left: 0.5rem;
+       margin-right: 0.5rem;
+   }
+   .five-boxes span{
+    padding: 2rem;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.enterpreneur-box{
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem; 
+    flex-direction: column;
+   
+}
+.eo-box{
+    height: 7rem;
+    width: 23rem;
+     background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem; 
+    padding:  1rem;
+    
+    
+}
+.eo-box span{
+    color: black;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.owner-box{
+  
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-direction: column;
+}
+.market-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    
+    
+}
+.mk-box{
+    height: 7rem;
+    width: 23rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    gap: 3rem;
+    padding: 1rem;
+}
+
+.mk-box span{
+    color: black;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.six-boxes{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2rem;
+}
+
+.after-session{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    flex-direction: column;
+   
+}
+
+.able-box{
+    height: 8rem;
+    width: 20rem;
+    background-color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 1rem;
+    padding: 1rem;
+  
+    
+}
+.able-box span{
+    color: black;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+.unlock p{
+    font-size: 2rem;
+    padding: 1rem;
+}
+.three-boxes{
+    padding: 2rem;
+    flex-direction: column;
+    
+
+}
+.unlock-box{
+    width: 25rem;
+
+}
+
+.rs-box{
+    height: 4rem;
+    width: 15rem;
+    
+}
+
+.unlock-box2{
+    width: 25rem;
+
+    
+}
+.unlock-box2 p{
+    font-size: 1.5rem;
+
+    
+}
+.bxdata{
+    margin-bottom: 2rem;
+}
+.learning{
+    flex-direction: column;
+}
+
+.rs-box2{
+    width: 15rem;
+
+}
+.trainer{
+    padding-top: 3rem;
+    font-size: 2rem;
+}
+.mentor-name{
+    padding: 2rem;
+    text-align: center;
+}
+.mentor-name h1{
+    margin-left: 0rem !important;
+    padding: 1rem;
+    text-align: center;
+   
+}
+.mentor-discript {
+    line-height: 2rem;
+    font-size: 1rem;
+    gap: 0rem;
+    font-family: sans-serif;
+    flex-direction: column;
+    flex-direction: column-reverse;
+}
+.mentor-img img{
+    height: 18rem;
+    width: 20rem;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+.join span{
+    text-align: center;
+    font-size: 1.8rem;
+    padding: 2rem;
+}
+.join p{
+ 
+    font-size: 1.5rem;
+
+    
+}
+.btn-name{
+
+    font-size: 1.3rem;
+
+}
+
+.premium{
+    font-size: 2rem;
+    text-align: center;
+}
+.learn-img img{
+  
+    height: 12rem;
+    padding: 3rem;
+    width: 15rem;
+    margin: auto;
+    box-shadow: none;
+
+}
+.why-list {
+    font-size:small;
+    font-family: sans-serif;
+    font-weight: 200;
+    flex-direction: column;
+    padding: 1rem;
+    text-align: center;
+    margin-top: -5rem;
+    
+}
+.why-list span{
+    color: rgb(10, 185, 168);
+
+}
+.why-list i{
+    padding: 0.5rem;
+   
+}
+.accordion{
+    padding: 3rem;
+    
+}
+.accordion .faq-box{
+    position: relative;
+    margin: 10px 20px;
+    width: 75vw;
+    border-radius: 1rem;
+    background:rgb(41, 164, 152);
+}
+.accordion .faq-box:hover{
+    background-color: rgb(36, 36, 170);
+}
+.accordion .faq-box .ques{
+    position: relative;
+    padding: 1rem;
+    color: white;
+    cursor: pointer;
+    font-size: 0.8rem;
+    font-family: sans-serif;
+    height: 4rem;
+    border-radius: 1rem;
+}
+.accordion .faq-box .ques::before{
+    color: rgb(26, 207, 26);
+    content: '+';
+    position:absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+    background-color:black;
+    width: 2rem;
+    border-radius: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    border: 5px solid white;
+}
+ .accordion .faq-box.active .ques::before{
+    color: rgb(26, 207, 26);
+    content: '-';
+    position:absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+    background-color: black;
+    width: 2rem;
+    border-radius: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2rem;
+    border: 5px solid white;
+}
+.accordion .faq-box .content{
+    position: relative;
+    background:black;
+    height: 0rem;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y:visible;
+    font-size: 0.8rem;
+    font-family: sans-serif;
+}
+.accordion .faq-box.active .content{
+    height: 5rem;
+    padding:2rem;
+    font-size: 0.8rem;
+}
+.learn-img img {
+    height: 13rem;
+    padding: 3rem;
+    width: 22rem;
+    margin: auto;
+    box-shadow: none;
+}
+
+.footer {
+    width: 100%;
+   background-color:white;
+   height: auto;
+   cursor: pointer;
+   border-radius: 1rem;
+   position: fixed;
+   bottom: 0;
+   left: 0;
+
+}
+.start{
+    padding: 2rem 2rem ;
+    text-align: right;
+    gap: 1.5rem;
+
+    
+}
+.start span{
+    color: rgb(34, 201, 193);
+    font-family: sans-serif;
+    font-size: 1rem;
+    font-weight: 100;
+    text-align: right;
+    
+}
+.start b{
+    color: rgb(34, 201, 193);
+    font-size: 1rem;
+    font:500;
+    font-family: sans-serif;
+    text-align: right;
+   
+}
+.start h1{
+    font-size: 1rem;
+    font-weight: 200;
+    color:rgb(34, 201, 193);
+   
+}
+.start img{
+    height: 2rem;
+    width: 3rem;
+}
+.rg-btn{
+    background-color: rgb(10, 185, 168);
+    height: 4rem;
+    width: 10rem;
+    border-radius: 2rem;
+    font-size: 0.5rem;
+    font-weight: bold;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    text-align: center;
+    box-shadow: 0px 10px 5px 10px rgb(10, 185, 168) ;
+
+}
+.start h4{
+    font-size: 2rem;
+    color:rgb(34, 201, 193);
+    font-weight: 50;
+    gap: 0rem;
+}
+ 
+#tm-btn1 {
+    height: 4rem;
+    width: 3.5rem;
+    font-size: 1.5rem;
+}
+#tm-btn2 {
+    height: 4rem;
+    width: 3.5rem;
+    font-size: 1.5rem;
+}
+#tm-btn3 {
+    height: 4rem;
+    width: 3.5rem;
+    font-size: 1.5rem;
+}
+#tm-btn4 {
+    height: 4rem;
+    width: 3.5rem;
+    font-size: 1.5rem;
+}
+.btn-name{
+    gap: 1.2rem;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+}
+/*RESPONSIVE WEBSITE FOR 349PX TO 499PX*/
+@media  screen and (min-width:349px) and (max-width:499px){
+
+    .head-box{
+        border-radius:  0rem 0rem 1rem 1rem;
+        margin:  auto;
+        width: 18rem;
+        height: 7rem;
+    }
+    .head-box b{
+        font-size: 1.5rem;
+        padding: 1.5rem;
+    }
+    .info span{
+           font-size: 1rem;
+       }
+       .info p{
+           font-size: 1.2rem;
+       }
+       .info h2{
+           font-size: 1rem;
+           margin-top: -2em;
+       }
+       .info h3{
+           font-size: 1.2rem;
+       }
+       .boxes{
+        padding: 1.5rem;
+        margin-top: -3em;
+        
+    }
+    .f-2-box{
+      
+        justify-content: center;
+        gap: 0.5rem;
+        padding-right: 0rem;
+        margin: 0.5rem;
+        flex-direction: column-reverse;
+        text-align: center;
+        font-size: 1rem;
+        
+    
+    }
+    
+    .f-2-box .box1{
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        height: 3.5rem;
+        font-size: 0.8rem;
+        width: auto;
+        text-align: center;
+        font-size: 1rem;
+       
+    }
+    .s-2-box{
+       
+        justify-content: center;
+        gap: 0.5rem;
+        padding-right: 0rem;
+        margin: 0.5rem;
+        flex-direction: column-reverse;
+        text-align: center;
+        font-size: 1rem;
+        
+    
+    }
+    .s-2-box .box1{
+        align-items: center;
+        height:3.5rem;
+        text-align: center;
+        gap: 1.2rem;
+        font-size: 1rem;
+        width: auto;
+        text-align: center;
+        justify-content: center;
+    }
+    .triangle{
+        flex-direction: column-reverse;
+    }
+    .tri-img img{
+        height: 13rem;
+        padding: 0rem;
+        /* margin-top: -3rem; */
+    }
+    .prob b{
+        font-size: 1.3rem;
+        margin: auto;
+    }
+    .prob li{
+        font-size: 1rem;
+    }
+    .prob ul {
+        margin-left: 1.4rem !important;
+        padding-top: 1rem;
+        list-style: none;
+    }
+    .join-now{
+        text-align: center;
+        padding: 1.2rem;
+        font-size: 0.8em;
+    }
+    .seat{
+        font-size: 1.2rem;
+    }
+    .register span{
+        font-size: 0.5rem;
+        font-weight: 500;
+        text-align: center;
+    }
+   .btn1{
+       height: 4em;
+       width: 20rem;
+    }
+   
+   .btn1 b{
+       font-size: 0.8rem;
+
+   }
+   .btn1 span{
+       font-size: 0.6rem;
+       padding-bottom: 1rem;
+   }
+   .btn1 h5{
+       text-decoration: line-through;
+       font-weight: 300;
+       margin-left: 0.2rem;
+       margin-right: 0.2rem;
+   }
+   .five-boxes span{
+ 
+    font-size: 0.9rem;
+  
+}
+.enterpreneur-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    flex-direction: column;
+    
+   
+}
+.eo-box{
+    height: 4.8rem;
+    width: 18rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding-left: 1rem;    
+}
+.eo-box span{
+    margin: 0;
+    color: black;
+    font-size: 0.9rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.owner-box{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    flex-direction: column;
+    
+   
+}
+.market-box{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    flex-direction: column;
+    
+   
+}
+.mk-box{
+    height: 4.8rem;
+    width: 18rem;
+   
+}
+
+.mk-box span{
+    color: black;
+    font-size: 0.9rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.six-boxes{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2rem;
+}
+
+.after-session{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    flex-direction: column;
+   
+}
+
+.able-box{
+    height: 5rem;
+    width: 18rem;  
+}
+.able-box span{
+    color: black;
+    font-size: 0.9rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.unlock p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    margin: 0.3rem;
+    width: auto;
+    margin-top: -1em;
+}
+.dig-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* width: 30em;
+    margin: auto; */
+
+}
+
+.three-boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4em;
+}
+.unlock-box, .unlock-box2{
+    width: 17rem;
+    height: 14rem;
+    font-size: 1rem;
+    text-align: center;
+}
+.unlock-box2 p{
+    font-size: 1.4rem;
+}
+.rs-box,.rs-box2{
+    width: 10rem;
+    height: 2rem;
+    font-size: 1rem;
+
+}
+.trainer{
+    font-size: 2em;
+    margin-top: -2em;
+}
+.mentor-name h1{
+    
+    margin-left: 0rem !important;
+    padding: 1rem;
+    font-family: sans-serif;
+    font-size: 1.5rem;
+    margin-top: -4em;
+    text-align: center;
+     margin-top: -66px; 
+    
+   
+}
+
+
+.mentor-discript {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    line-height: 1.5rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+    text-align: center;
+    width: auto;
+}
+.mentor-discript span{
+    color: rgb(60, 173, 141);
+}
+.mentor-img img{
+    height: 12rem;
+    width: 15rem;
+
+}
+.join{
+    font-size: 1.2rem;    
+}
+.Rejoin{
+    font-size: 1.3rem;
+    margin-top: -2em;
+}
+
+#tm-btn1{
+    height: 3rem;
+    width: 3.5rem;
+    font-size: 0.9rem;
+}
+
+#tm-btn2{
+    height: 3rem;
+    width: 3.5rem;
+    font-size: 0.9rem;
+
+
+}
+
+#tm-btn3{
+    height: 3rem;
+    width: 3.5rem;
+    font-size: 0.9rem;
+}
+
+#tm-btn4{
+    height: 3rem;
+    width: 3.5rem;
+    font-size: 0.9rem;
+}
+.btn-name{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 0.5rem;
+    font-size: 0.9rem;
+    margin-left: 1rem;
+}
+.watch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+   
+    
+}
+.join span {
+    text-align: center;
+    font-size: 1.3rem;
+}
+.join h5 {
+    font-size: 1.2rem;
+}
+.join p {
+    font-size: 1.3rem; 
+}
+.Rejoin{
+    font-size: 1.2rem;
+    margin-top: -5em;
+}
+.learning{
+    
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 3rem;
+     /* margin: auto;  */
+}
+.premium{
+   
+    font-family: sans-serif;
+    font-size: 1.7rem;
+     padding: 0.5rem; 
+    margin: auto;  
+    text-align: center; 
+    margin: top -3em;
+}
+.learn-img img{
+    height: 12rem;
+    padding: 3rem;
+    width: 16rem;
+    margin-bottom: 15rem;
+}
+.worth {
+    text-align: center;
+    font-size: 1rem; 
+}
+.why-list {
+    font-size: large;
+    padding: 1.8rem;
+  
+    /* margin: auto; */
+    text-align: center;
+    margin-top: -20rem;
+}
+.learn-img{
+    margin-top: -5em;
+}
+
+.why-list i{
+    padding: 0.7rem;
+   
+}
+
+.accordion .faq-box .ques::before {
+    color: rgb(26, 207, 26);
+    content: '+';
+    position: absolute;
+    top: 51%;
+    right: 17px;
+    font-size: 0.8em;
+    width: 1.8rem;
+    border-radius: 45%;
+    height: 1.8rem;
+    
+}
+
+.accordion .faq-box.active .ques::before {
+    color: rgb(26, 207, 26);
+    content: '-';
+    position: absolute;
+    top: 51%;
+    right: 17px;
+    font-size: 0.9em;
+    width: 1.8rem;
+    border-radius: 45%;
+    height: 1.8rem;
+}
+.accordion .faq-box .ques {
+    position: relative;
+    padding: 1rem;
+    color: white;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: sans-serif;
+    height: 7rem;
+    border-radius: 1rem;
+}
+.ans-ques{
+    margin-top: -4rem;
+    
+}
+
+.accordion .faq-box.active .content {
+    height: 6rem;
+    padding: 2rem;
+    width: 100%;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+ 
+}
+
+/*RESPONSIVE WEBSITE FOR 200PX TO 349PX*/
+@media  screen and (min-width:200px) and (max-width:349px){
+
+    .head-box{
+        border-radius:  0rem 0rem 1rem 1rem;
+        margin:  auto;
+    }
+    .head-box b{
+        font-size: 1rem;
+        padding: 1rem;
+    }
+    .info span{
+           font-size: 0.8rem;
+       }
+       .info p{
+           font-size: 1rem;
+       }
+       .info h2{
+           font-size: 0.8rem;
+           margin-top: -2em;
+       }
+       .info h3{
+           font-size: 1rem;
+       }
+       .boxes{
+        padding: 1.5rem;
+        margin-top: -3em;
+    }
+    .f-2-box{
+      
+        justify-content: center;
+        gap: 0.5rem;
+        padding-right: 0rem;
+        margin: 0.5rem;
+        flex-direction: column-reverse;
+        
+    
+    }
+    
+    .f-2-box .box1{
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+        height: 3.5rem;
+        font-size: 0.8rem;
+        width: auto;
+    }
+    .s-2-box{
+       
+        justify-content: center;
+        gap: 0.5rem;
+        padding-right: 0rem;
+        margin: 0.5rem;
+        flex-direction: column-reverse;
+        
+    
+    }
+    .s-2-box .box1{
+        align-items: center;
+        height:3.5rem;
+        text-align: center;
+        gap: 1rem;
+        font-size: 0.8rem;
+        width: auto;
+    }
+    .triangle{
+        flex-direction: column-reverse;
+    }
+    .tri-img img{
+        height: 10rem;
+        padding: 0rem;
+        margin-top: -3rem;
+    }
+    .prob b{
+        font-size: 1rem;
+        margin: auto;
+    }
+    .prob li{
+        font-size: 0.6rem;
+    }
+    .join-now{
+        text-align: center;
+        padding: 1rem;
+    }
+    .seat{
+        font-size: 0.5rem;
+    }
+    .register span{
+        font-size: 0.2rem;
+        font-weight: 300;
+        text-align: center;
+    }
+   .btn1{
+       height: auto;
+       width: 12rem;
+    }
+   .btn1 b{
+       font-size: 0.8rem;
+
+   }
+   .btn1 span{
+       font-size: 0.4rem;
+       padding-bottom: 1rem;
+   }
+   .btn1 h5{
+       text-decoration: line-through;
+       font-weight: 300;
+       margin-left: 0.2rem;
+       margin-right: 0.2rem;
+   }
+   .five-boxes span{
+    padding: 2rem;
+    font-size: 0.6rem;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.enterpreneur-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    flex-direction: column;
+    
+   
+}
+.eo-box{
+    height: 4rem;
+    width: 11rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding-left: 1rem;    
+}
+.eo-box span{
+    color: black;
+    font-size: 0.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.owner-box{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    flex-direction: column;
+    
+   
+}
+.market-box{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    flex-direction: column;
+    
+   
+}
+.mk-box{
+    height: 4rem;
+    width: 11rem;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 1rem;
+    padding-left: 1rem;   
+}
+
+.mk-box span{
+    color: black;
+    font-size: 0.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.six-boxes{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 2rem;
+}
+
+.after-session{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+    flex-direction: column;
+   
+}
+
+.able-box{
+    height: 4rem;
+    width: 11rem;
+    background-color: white;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 0.5rem;
+    border-radius: 1rem;
+    padding: 2rem;
+    text-align: start;    
+}
+.able-box span{
+    color: black;
+    font-size: 0.5rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+   
+}
+.unlock p{
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 1.5em;
+    margin: 0.3rem;
+    width: auto;
+    margin-top: -1em;
+}
+.dig-btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.three-boxes{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: -4em;
+}
+.unlock-box, .unlock-box2{
+    width: 10rem;
+    height: 18rem;
+    font-size: 1rem;
+    text-align: center;
+}
+.unlock-box2 p{
+    font-size: 1.4rem;
+}
+.rs-box,.rs-box2{
+    width: 10rem;
+    height: 2rem;
+    font-size: 1rem;
+
+}
+.trainer{
+    font-size: 1.5em;
+    margin-top: -2em;
+}
+.mentor-name h1{
+    
+    margin-left: 0rem;
+    padding: 1rem;
+    font-family: sans-serif;
+    font-size: 1rem;
+    margin-top: -4em;
+    text-align: center;
+    
+   
+}
+
+
+.mentor-discript {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    line-height: 1rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+    text-align: center;
+}
+.mentor-discript span{
+    color: rgb(60, 173, 141);
+}
+.mentor-img img{
+    height: 10rem;
+    width: 10rem;
+    margin-top: -7rem;
+
+}
+.join{
+    font-size: 1rem;    
+}
+.Rejoin{
+    font-size: 1rem;
+    margin-top: -2em;
+}
+
+#tm-btn1{
+    height: 3rem;
+    width: 3rem;
+    font-size: 0.8rem;
+}
+
+#tm-btn2{
+    height: 3rem;
+    width: 3rem;
+    font-size: 0.8rem;
+
+
+}
+
+#tm-btn3{
+    height: 3rem;
+    width: 3rem;
+    font-size: 0.8rem;
+}
+
+#tm-btn4{
+    height: 3rem;
+    width: 3rem;
+    font-size: 0.8rem;
+}
+.btn-name{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 0.4rem;
+    font-size: 0.8rem;
+    margin-left: 1rem;
+}
+.watch{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+   
+    
+}
+.join span {
+    text-align: center;
+    font-size: 1rem;
+}
+.join h5 {
+    font-size: 1rem;
+}
+.join p {
+    font-size: 1.5rem; 
+}
+.Rejoin{
+    margin-top: -5em;
+}
+.learning{
+    
+    flex-direction: column;
+    gap: 1rem;
+     /* margin: auto;  */
+}
+.premium{
+   
+    font-family: sans-serif;
+    font-size: 1.2rem;
+    /* padding: 0.5rem; */
+    margin: auto;  
+    text-align: center; 
+}
+.learn-img img{
+    height: 10rem;
+    padding: 3rem;
+    width: 13rem;
+    margin-bottom: 15rem;
+}
+.worth {
+    text-align: center;
+    font-size: 1rem; 
+}
+.why-list {
+    font-size: medium;
+    padding: 1.7rem;
+    /* margin: auto; */
+    text-align: center;
+    margin-top: -20rem;
+}
+.learn-img{
+    margin-top: -5em;
+}
+
+.why-list i{
+    padding: 0.5rem;
+   
+}
+
+.accordion .faq-box .ques::before {
+    color: rgb(26, 207, 26);
+    content: '+';
+    position: absolute;
+    top: 75%;
+    right: 17px;
+    font-size: 0.8em;
+    width: 1.8rem;
+    border-radius: 45%;
+    height: 1.8rem;
+    
+}
+
+.accordion .faq-box.active .ques::before {
+    color: rgb(26, 207, 26);
+    content: '-';
+    position: absolute;
+    top: 75%;
+    right: 17px;
+    font-size: 0.8em;
+    width: 1.8rem;
+    border-radius: 45%;
+    height: 1.8rem;
+}
+.accordion .faq-box .ques {
+    font-size: 1rem;
+}
+.ans-ques{
+    margin-top: -4rem;
+}
+
+.accordion .faq-box.active .content {
+    height: 10rem;
+    padding: 2rem;
+    font-size: 1rem;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+
+}
